@@ -1,0 +1,46 @@
+
+
+@media only screen and (max-width: 480px){
+    .date {
+        float: right;
+        position: absolute;
+        bottom: 0rem;
+        right: 2rem;
+        color: #b2aeae;
+    }
+    .price {
+        float: right;
+        font-size: 3.5rem;
+        right: 2rem;
+        color: #478000;
+        bottom: 2rem;
+    }
+    .header{
+        height: 23rem!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        text-align : left;
+        height: 24rem!important;
+    }
+    .nav{
+        margin-top : 30px;
+    }
+    .date {
+        float: right;
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        color: #b2aeae;
+    }
+    .price {
+        float: right;
+        font-size: 3.5rem;
+        right: 2rem;
+        color: #478000;
+        bottom: 3.5rem;
+    }
+}
+
