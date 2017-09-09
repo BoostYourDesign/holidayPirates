@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee|Quicksand|Titillium+Web');
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #F1F1F1;
+}
 .top{
     text-align: center;
     padding: 2rem 0;
@@ -17,10 +26,6 @@
 .table-responsive{
     text-align: left;
 }
-*{
-    font-family: 'Titillium Web', sans-serif;
-}
-
 .well {
     margin-top:-20px;
     background-color:#007FBD;
@@ -31,7 +36,6 @@
     padding: 15px;
     border-radius: 0px !important;
 }
-
 .well:hover {
     margin-top:-20px;
     background-color:#0077B2;
@@ -42,13 +46,6 @@
     padding: 15px;
     border-radius: 0px !important;
     border-bottom : 2px solid rgba(97, 203, 255, 0.65);
-}
-
-body {
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #fff;
-    background-color: #F1F1F1;
 }
 .follow_btn {
     text-decoration: none;
@@ -65,7 +62,6 @@ body {
     font-size: 20px;
     border: 4px solid #007FBE;
 }
-
 .follow_btn:hover {
     text-decoration: none;
     position: absolute;
@@ -81,7 +77,6 @@ body {
     font-size: 20px;
     border: 4px solid rgba(255, 255, 255, 0.8);
 }
-
 .header{
     color : #808080;
     margin-left:2rem;
@@ -91,21 +86,17 @@ body {
 h1,h4{
     font-family: 'Quicksand', sans-serif;
 }
-
-
 .btn-style{
     color: #fff;
     background-color: #007FBE;
     border-color: #adadad;
     width: 33.3%;
 }
-
 .btn-style:hover {
     color: #333;
     background-color: #3D5DE0;
     border-color: #adadad;
     width: 33.3%;
-
 }
 .hotelImg{
     width: 100%;
@@ -117,17 +108,14 @@ h1,h4{
     transition: ease-in;
     transition-duration: 0.4s;
 }
-
 .imageHolder{
     padding:0!important;
     overflow: hidden;
 }
-
 .showReviews{
     position: absolute;
     top: 18rem;
 }
-
 .rating{
     color: #007fbd;
     float: right;
@@ -135,7 +123,6 @@ h1,h4{
     position: relative;
     top: 2rem;
 }
-
 .price{
     font-family: 'Handlee', cursive;
     position: absolute;
@@ -151,7 +138,6 @@ h1,h4{
     right: 2rem;
     color: #b2aeae;
 }
-
 .review-box{
     background: #f1f1f1;
     text-align: left;
@@ -159,12 +145,10 @@ h1,h4{
     border-radius: 5px;
     margin-bottom: 1rem;
 }
-
 .reviewer-name{
     color: #0077b2;
     margin-bottom: 0.5rem;
 }
-
 .review-box p{
     font-size: 1.2rem;
     color: #636262;
@@ -186,7 +170,6 @@ h1,h4{
     border-radius: 50%;
     padding: 1rem;
 }
-
 .fa-smile-o{
     background: #77a53d;
     color: white;
@@ -195,10 +178,7 @@ h1,h4{
     border-radius: 50%;
     padding: 1rem;
 }
-
 /* Load Hotels btn style */
-
-/* General button style (reset) */
 .btnLoad {
     border: none;
     font-family: inherit;
@@ -218,7 +198,6 @@ h1,h4{
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-
 .btnLoad:after {
     content: '';
     position: absolute;
@@ -227,8 +206,6 @@ h1,h4{
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-
-/* Pseudo elements for icons */
 .btnLoad:before,
 .icon-heart:after,
 .icon-star:after,
@@ -244,25 +221,21 @@ h1,h4{
     position: relative;
     -webkit-font-smoothing: antialiased;
 }
-/* Button 4 */
 .btn-4 {
     border-radius: 50px;
     border: 3px solid #a9d5f5;
     color: #fff;
     overflow: hidden;
 }
-
 .btn-4:active {
     border-color: #17954c;
     color: #17954c;
 }
-
 .btn-4:hover {
     background: #3e8630;
     border: 3px solid #8bd07d;
     color: #ffffff!important;
 }
-
 .btn-4:before {
     position: absolute;
     height: 100%;
@@ -273,18 +246,15 @@ h1,h4{
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-
 .btn-4:active:before {
     color: #17954c;
 }
-/* Button 4c */
 .btn-4c:before {
     left: 70%;
     opacity: 0;
     top: 0;
     top: -6%;
 }
-
 .btn-4c:hover:before {
     left: 80%;
     opacity: 1;

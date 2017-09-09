@@ -1,5 +1,3 @@
-
-
 @media only screen and (max-width: 480px){
     .date {
         float: right;
@@ -19,7 +17,6 @@
         height: 23rem!important;
     }
 }
-
 @media only screen and (max-width: 768px) {
     .header{
         text-align : left;
