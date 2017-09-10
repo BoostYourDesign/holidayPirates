@@ -35,6 +35,7 @@ function showReviews(id) {
     }
     xhttp.open("GET","http://fake-hotel-api.herokuapp.com/api/reviews?hotel_id="+ id, true);
     xhttp.send();
+    document.getElementById(id).innerHTML = "Loading ..."
 };
 
 // Toggle the user reviews container
